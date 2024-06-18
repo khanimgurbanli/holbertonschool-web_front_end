@@ -1,0 +1,13 @@
+// Define variables for text colors
+$text-color-default: #FF0000;
+$text-color-hover: #00FF00;
+
+// Apply the variables using nested declarations
+button {
+  color: $text-color-default;
+
+  &:hover {
+    color: $text-color-hover;
+  }
+}
+
