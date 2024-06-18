@@ -1,0 +1,10 @@
+// Import the photos partial
+@import 'photos';
+
+// Use the imported photo names and loop through each one
+@each $photo in $photos {
+  .photo-#{$photo} {
+    background: image-url("photos/#{$photo}.jpg") no-repeat;
+  }
+}
+
