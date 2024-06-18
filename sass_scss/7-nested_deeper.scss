@@ -1,0 +1,18 @@
+// Define variables for font sizes
+$font-size-body: 14px;
+$font-size-h1: 16px;
+$font-size-h1-smaller: 12px;
+
+// Apply the variables using nested declarations
+body {
+  font-size: $font-size-body;
+
+  h1 {
+    font-size: $font-size-h1;
+
+    &.smaller {
+      font-size: $font-size-h1-smaller;
+    }
+  }
+}
+
