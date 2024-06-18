@@ -1,8 +1,15 @@
+// Define the font size variable
+$font-size-info: 12px;
+
 //Declare info  Placeholder 
 %info {
   font-size: $font-size-info;
 }
 
+// Declare .info class and extend %info
+.info {
+  @extend %info;
+}
 
 //Declare .succes 
 .success {
