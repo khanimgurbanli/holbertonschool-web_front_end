@@ -1,21 +1,23 @@
 
-// Placeholder 
+//Declare info  Placeholder 
 %info {
   font-size: $font-size-info;
 }
 
-//  .info, .success ve .warning 
+//Declare  .info, .success vs .warning 
 .info {
-  @extend %info; // .info  %info placeholder
+  @extend %info;
 }
 
+//Declare .succes 
 .success {
-  @extend %info; // .success ->� %info placeholder
+  @extend %info; 
   color: #00FF00;ı
 }
 
+//Declare .warning 
 .warning {
-  @extend %info; // .warning -> %info placeholder
+  @extend %info; 
   color: #FF0000; ı
 }
 
