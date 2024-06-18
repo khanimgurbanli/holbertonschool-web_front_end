@@ -1,17 +1,24 @@
 // Placeholder selector for .info
-%info {
+%size {
   font-size: 12px; // Define font size once here
 }
 
-// Extend %info for .success
+
+// Extend %size for .success
 .success {
-  @extend %info;
+  @extend %size;
   color: #00FF00; // Green color for success messages
 }
 
-// Extend %info for .warning
+// Extend %size for .warning
 .warning {
-  @extend %info;
+  @extend %size;
   color: #FF0000; // Red color for warning messages
+}
+
+// Extend %size for .info
+.info{
+  @extend %size;
+  color: #FF0000;
 }
 

@@ -1,0 +1,20 @@
+//Declare  Placeholder 
+%info {
+  font-size: $font-size-info;
+}
+
+// .info, .success vs .warning 
+.info {
+  @extend %info; 
+}
+
+.success {
+  @extend %info; 
+  color: #00FF00;ı
+}
+
+.warning {
+  @extend %info; 
+ color: #FF0000; // Uyarı mesajları için kırmızı renk tanımlaması
+}
+
