@@ -14,7 +14,7 @@ $color-warning: #FF0000;
 }
 
 .warning{
- @extend .warning;
+ @extend .info;
  color: $color-warning;
 }
 
