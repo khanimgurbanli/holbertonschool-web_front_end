@@ -1,0 +1,11 @@
+// Define variables for design
+$text-margin-left: 10px;
+$text-margin-right: 10px;
+
+body {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+div {
+  margin-left: 15px;
+  margin-right: 15px; }

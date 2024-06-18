@@ -1,20 +1,21 @@
 // Varaibles
+// Define variable for font size
 $font-size-info: 12px;
-$color-success: #00FF00;
-$color-warning: #FF0000;
 
-// Styles
- .info, .success, .warning {
+// Styles for .info class
+.info {
   font-size: $font-size-info;
 }
 
- .success {
- @extend .info;
- color: $color-success;
+// Extend .info for .success and .warning classes
+.success {
+  @extend .info;
+  color: #00FF00; // Green color for success messages
 }
 
-.warning{
- @extend .info;
- color: $color-warning;
+.warning {
+  @extend .info;
+  color: #FF0000; // Red color for warning messages
 }
+
 
