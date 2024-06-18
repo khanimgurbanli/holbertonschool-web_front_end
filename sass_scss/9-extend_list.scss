@@ -1,0 +1,20 @@
+// Varaibles
+$font-size-info: 12px;
+$color-success: #00FF00;
+$color-warning: #FF0000;
+
+// Styles
+ .info, .success, .warning {
+  font-size: $font-size-info;
+}
+
+ .success {
+ @extend .info;
+ color: $color-success;
+}
+
+.warning{
+ @extent .warning;
+ color: $color-warning;
+}
+
