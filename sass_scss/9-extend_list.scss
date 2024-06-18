@@ -6,11 +6,6 @@ $font-size-info: 12px;
   font-size: $font-size-info;
 }
 
-// Declare .info class and extend %info
-.info {
-  @extend %info;
-}
-
 //Declare .succes 
 .success {
   @extend %info; 
