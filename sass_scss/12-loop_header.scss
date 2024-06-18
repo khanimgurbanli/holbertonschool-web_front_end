@@ -1,0 +1,7 @@
+// Use the @for directive to loop through numbers 1 to 5
+@for $i from 1 through 5 {
+  h#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
