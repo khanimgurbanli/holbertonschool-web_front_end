@@ -1,9 +1,18 @@
+// Define variables for text color and background color
+$text-color: #3D3D3D;
+$background-color: #6D6D6D;
+
+// Apply the variables to CSS properties
 body {
-  color: #3D3D3D;
-  background-color: #6D6D6D; }
+  color: $text-color;
+  background-color: $background-color;
+}
 
 p {
-  color: #3D3D3D; }
+  color: $text-color;
+}
 
 h2 {
-  background-color: #6D6D6D; }
+  background-color: $background-color;
+}
+
