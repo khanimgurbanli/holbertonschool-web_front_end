@@ -1,0 +1,9 @@
+//Define varaibles for text colors
+$text-color-default: #3D3D3D;
+$text-color-red: #FF0000;
+
+// Apply the variables using nested declarations
+body {
+  color: $text-color-default; }
+  body > .red {
+    color: $text-color-red; }
