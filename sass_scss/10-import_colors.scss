@@ -1,8 +1,7 @@
-/* All my colors */
-$red: #FF0000;
-$green: #00FF00;
-$blue: #0000FF;
+//Import the colors partial 
+@import 'colors'
 
+// Use the imported color variables
 .red {
   color: $red;
  }
