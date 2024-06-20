@@ -250,7 +250,7 @@ template {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: .04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 2rem 0 0;
+    --nav-item-margin: 0 0 0  2rem;
     --nav-item-link-hover: var(--color-white);
 
     /** BUTTON **/
@@ -399,13 +399,11 @@ ul.row {
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: 0 0 0 2rem;
 }
+.nav .nav-item + .nav-item {
+        margin: var(--nav-item-margin);
 
-nav .nav-item + .nav-item {
-    margin-top: 0; 
-}
-
+ }
 .nav .nav-link {
     display: block;
     padding: 0.5rem 0;
