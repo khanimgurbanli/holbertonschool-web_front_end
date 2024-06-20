@@ -716,8 +716,13 @@ ul.row {
     ============================= */
 
     .hero-article {
-        color: '';
-        background-size:rgba(0, 0, 0, 0.8);
+        background-size: 150rem 100rem;
+        background-position: 50% 0;
+    }
+
+    .hero-article::before {
+        content: '';
+        background: rgba(0, 0, 0, 0.8);
         position: absolute;
         top: 0;
         right: 0;
@@ -725,7 +730,6 @@ ul.row {
         bottom: 0;
         z-index: 0;
     }
-
 
     .section-inner{
         text-align: center;
