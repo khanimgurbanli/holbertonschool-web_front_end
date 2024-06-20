@@ -240,10 +240,6 @@ template {
 
     /** HEADER **/
     --header-padding: 4rem 0 0;
-    .header-container{
-        display: flex;
-        justify-content: space-between;
-    }
 
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
@@ -443,6 +439,10 @@ ul.row {
     background: transparent;
 }
 
+.header-container{
+    display: flex;
+    justify-content: spa;
+}
 
 /* Footer
       ============================= */
