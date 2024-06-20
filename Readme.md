@@ -1,17 +1,8 @@
 
-![copy-repo-link](html_advanced/assets/images/copy-repo-link.png)
-
-## Installation
-
-
-Follow these steps to run the project on your local machine:
-
-1. **Get repository link for download project**: You can find out how to get the repo link from the screenshot below.
-
-           
-
 # Holberton Task - flexbox
 
+![copy-repo-link](./flexbox/images/holberton_logo.jpg)
+           
 
 ## Description
 
