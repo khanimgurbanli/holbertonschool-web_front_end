@@ -564,7 +564,7 @@ ul.row {
 }
 
 /* Section SERVICES ============================= */
-.section-services {
+.section-services .row{
     flex-wrap: wrap;
 }
 
