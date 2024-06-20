@@ -1,8 +1,8 @@
 
-           
-
 # Holberton Task - flexbox
 
+![copy-repo-link](./flexbox/images/holberton_logo.jpg)
+           
 
 ## Description
 
