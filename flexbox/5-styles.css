@@ -441,7 +441,7 @@ ul.row {
 
 .header-container{
     display: flex;
-    justify-content: spa;
+    justify-content: space-between;
 }
 
 /* Footer
