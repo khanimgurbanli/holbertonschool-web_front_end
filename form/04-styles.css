@@ -900,17 +900,32 @@ textarea:focus {
     background-color: var(--color-light-grey);
 }
 
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {
     color: var(--color-grey);
 }
-::-moz-placeholder { 
+::-moz-placeholder {
     color: var(--color-grey);
     opacity: 1;
 }
 :-ms-input-placeholder {
     color: var(--color-grey);
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
     color: var(--color-grey);
+    opacity: 1;
+}
+
+::-webkit-input-placeholder { 
+    font-style: italic;
+}
+::-moz-placeholder { 
+    font-style: italic;
+    opacity: 1;
+}
+:-ms-input-placeholder { 
+    font-style: italic;
+}
+:-moz-placeholder {
+    font-style: italic;
     opacity: 1;
 }
