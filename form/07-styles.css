@@ -1010,7 +1010,7 @@ textarea:valid:not(:placeholder-shown) {
      position: relative;
 }
 
-.search button .form-search {
+.search-button .form-search {
    display: inline-block;
    background: transparent;
    border: 0;
@@ -1018,7 +1018,7 @@ textarea:valid:not(:placeholder-shown) {
    padding: 0;
 }
 
-.search-icon  .search-button{
+.search-icon .search-button{
     fill: var(--color-white);
     width: 1.5rem;
     height: 1.5rem;
