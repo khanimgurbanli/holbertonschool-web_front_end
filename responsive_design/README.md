@@ -1,12 +1,11 @@
-
-# Holberton Task - flexbox
+# Holberton Task - Responsive design
 
 ![copy-repo-link](./images/holberton_logo.jpg)
            
 
 ## Description
 
-- My motivation for writing task is to learn more information about css and flexbox 
+- My motivation for writing task is to learn more information about Responsive design
 - I want to write this task for learn new information and pass to next  level 
 - I have not encountered  any issue when i write this project
 
