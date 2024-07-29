@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Load the latest slim & minified version of jQuery from the code.jquery.com CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<script type="application/javascript">
+    function createFamilyTree() {
+        //table header design
+        let table = document.createElement('table')
+        let thead = document.createElement('thead')
+        let headRow = document.createElement('tr')
+        let th1 = document.createElement('th')
+        th1.textContent='Firstname'
+        let th2 = document.createElement('th')
+        th2.textContent='Lastname'
+
+        //append base design
+        headRow.appendChild(th1)
+        headRow.appendChild(th2)
+        table.appendChild(headRow)
+
+        //table body design
+        let tbody= document.createElement('tbody')
+
+        // design first row and cells
+        let row1 = document.createElement('tr')
+        let cell1_1 = document.createElement('td')
+        cell1_1.textContent = 'Guillaume'
+        let cell1_2 = document.createElement('td')
+        cell1_2.textContent = 'Salva'
+
+        //append cells to row
+        row1.appendChild(cell1_1)
+        row1.appendChild(cell1_2)
+
+        // design second row and cells
+        let row2 = document.createElement('tr')
+        let cell2_1 = document.createElement('td')
+        cell2_1.textContent = 'Paulette'
+        let cell2_2 = document.createElement('td')
+        cell2_2.textContent = 'Salva'
+
+        //append cells to row
+        row2.appendChild(cell2_1)
+        row2.appendChild(cell2_2)
+
+        //design third row and cells
+        let row3 = document.createElement('tr')
+        let cell3_1 = document.createElement('td')
+        cell3_1.textContent = 'Antoine'
+        let cell3_2 = document.createElement('td')
+        cell3_2.textContent = 'Salva'
+
+        //append cells to row
+        row3.appendChild(cell3_1)
+        row3.appendChild(cell3_2)
+
+        //append rows to tbody
+        tbody.appendChild(row1)
+        tbody.appendChild(row2)
+        tbody.appendChild(row3)
+
+        //append base elements
+        table.appendChild(thead)
+        table.appendChild(tbody)
+        document.body.appendChild(table)
+    }
+
+    createFamilyTree();
+</script>
+
+</body>
+</html>
